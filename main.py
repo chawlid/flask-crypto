@@ -13,4 +13,4 @@ def send():
     return f"Received: {token}"
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.48', port=5000, debug=True)
+    app.run(debug=True)
